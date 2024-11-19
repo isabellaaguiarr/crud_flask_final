@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<form method="POST" class="p-4 border rounded bg-light shadow-sm">
+    <div class="mb-3">
+        <label for="nome_livro" class="form-label">Nome do Livro</label>
+        <input type="text" class="form-control" id="nome_livro" name="nome_livro" value="{{ item.nome_livro if item else '' }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="autor" class="form-label">Autor</label>
+        <input type="text" class="form-control" id="autor" name="autor" value="{{ item.autor if item else '' }}">
+    </div>
+    <div class="mb-3">
+        <label for="genero_textual" class="form-label">Gênero Textual</label>
+        <input type="text" class="form-control" id="genero_textual" name="genero_textual" value="{{ item.genero_textual if item else '' }}">
+    </div>
+    <div class="mb-3">
+        <label for="avaliacao" class="form-label">Avaliação</label>
+        <input type="number" class="form-control" id="avaliacao" name="avaliacao" min="1" max="5" step="0.5" value="{{ item.avaliacao if item else '' }}">
+    </div>
+    <button type="submit" class="btn btn-primary">{{ button_text }}</button>
+</form>
+{% endblock %}
+

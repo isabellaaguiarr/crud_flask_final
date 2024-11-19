@@ -1,0 +1,140 @@
+/* Assistência do ChatGPT para aprimorar o CSS */
+body {
+    padding-top: 60px;
+    background-color: #f7f9fc;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Table Styles */
+.table {
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.table .btn {
+    margin: 0 2px;
+}
+
+/* Form Styles */
+.form-control {
+    border-radius: 4px;
+    box-shadow: none;
+    border-color: #ddd;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+.form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+button.btn-primary, .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover, .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Buttons */
+.btn-success, .btn-warning, .btn-danger {
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .table th, .table td {
+        font-size: 0.85rem;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}

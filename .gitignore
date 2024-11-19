@@ -1,0 +1,46 @@
+# Ambientes Virtuais (venv)
+venv/
+env/
+
+# Arquivos do banco de dados SQLite
+*.db
+*.sqlite3
+meu_novo_banco.db
+
+# Configurações sensíveis
+*.env
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Configurações específicas do editor
+.vscode/
+.idea/
+
+# Arquivos de sistema do macOS e Windows
+.DS_Store
+Thumbs.db
+
+# Bibliotecas geradas localmente
+*.egg-info/
+dist/
+build/
+
+# Dependências instaladas localmente
+bin/
+lib/
+include/
+pip-wheel-metadata/
+
+# Ignorar a pasta instance e tudo dentro dela
+instance/
+
+# Ou, se você quiser ignorar apenas arquivos .db na pasta instance
+instance/*.db
